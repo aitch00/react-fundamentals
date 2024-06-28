@@ -18,17 +18,20 @@
 <!--   💰 document.getElementById('root') -->
 <!--   📜 https://developer.mozilla.org/en-US/docs/Web/API/ParentNode/append -->
 
-<html>
-  <body>
-    <div id="root"></div>
-    <script type="module">
-      const root = document.createElement('root')
-      root.textContent = 'Hello World'
-      const dive = document.getElementById('root')
-      root.appendChild('div')
-    </script>
-  </body>
+<!--<html>
+
+<body>
+  <div id="root"></div>
+  <script type="module">
+    const root = document.createElement('root')
+    root.textContent = 'Hello World'
+    const dive = document.getElementById('root')
+    root.appendChild('div')
+  </script>
+</body>
+
 </html>
+-->
 
 <body>
   <div id="root"></div>
@@ -37,6 +40,6 @@
     const element = document.createElement('div')
     element.textContent = 'Hello World2'
     element.className = 'container'
-    rootElement.append(ElementInternals)
+    rootElement.append(element)
   </script>
 </body>
