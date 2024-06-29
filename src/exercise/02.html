@@ -11,8 +11,12 @@
     const worldElement = React.createElement('span', {}, 'World')
     const element = React.createElement('div', {
       className: 'container',
-      children: [helloElement, '', worldElement]
-    })
+      // children: [helloElement, ' ', worldElement]
+    }
+  helloElement,
+  ' ',
+  worldElement,
+  )
     ReactDOM.createRoot(rootElement).render(element)
   </script>
 </body>
